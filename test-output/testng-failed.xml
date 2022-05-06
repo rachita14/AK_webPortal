@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reading details from testng file]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="aklamio.test1234"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://react-redux.realworld.io/"/>
+  <parameter name="email" value="aklamio.task@gmail.com"/>
+  <test thread-count="5" name="Reading details from testng file(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchWebapp"/>
+          <include name="signin"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Reading details from testng file(failed) -->
+</suite> <!-- Failed suite [Reading details from testng file] -->
